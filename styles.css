@@ -171,8 +171,70 @@ text-align: left;
       .roger iframe {
         width: 950px; 
         height: 500px; 
-        border: 25px solid rgba(13, 19, 33, 0.2); 
+        border: 25px solid rgba(227, 229, 235, 0.2); 
         border-radius: 10px; 
         margin-top: 10px;
       }
     
+
+      .skills-container{
+        /* width: 500px; */
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .skill-1{
+        width: 250px;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0px 6px 50px 0px rgba(226, 67, 67, 0.06);
+        background: rgba(255, 76, 30, 0.05);
+    
+    }
+
+    .skill-2{
+        width: 250px;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        background: rgba(0, 76, 232, 0.05);
+    
+    }
+
+    .skill-3{
+        width: 250px;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+        background: rgba(255, 223, 0, 0.05);
+    
+    }
+    
+    .section-title{
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    .section-description{
+        font-size: 18px;
+        color: #757575;
+    }
+
+
+    .link-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+      }
