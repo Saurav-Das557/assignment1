@@ -75,6 +75,7 @@
       text-align: center;
       display: block;
       margin-top: 10px;
+      outline: none;
   }
 
 
@@ -183,6 +184,8 @@ text-align: left;
         gap: 24px;
         justify-content: center;
         flex-direction: row;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     
     .skill-1{
@@ -238,3 +241,96 @@ text-align: left;
     text-align: left;
     text-decoration-line: underline;
       }
+
+
+.developer{
+    justify-content: center;
+}
+
+.support{
+    background-image: url(assets/handshake.jpg);
+    width: 1000x 
+    justify-content: center;
+    border-radius: 15px;
+    background-position: center;
+
+
+} 
+
+
+
+.need{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.paragraph{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+
+.submit{
+    height: 35px;
+    width: 80px;
+    border-radius: 7px;
+    background: white;
+    justify-content: center;
+    border-color: white;
+}
+
+.box{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+justify-content: center;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  textarea {
+    border-radius: 8px;
+    width: 30%; /* adjust the width to your liking */
+    margin-right: 10px; /* add some space between the textarea and submit button */
+    height: 32px;
+  }
+  
+  .submit {
+    width: 6%; /* adjust the width to your liking */
+  }
+
+.skils{
+    margin-bottom: 100px;
+}
+
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(207, 212, 224, 0.03);
+  }
+  
+  h3 {
+    margin-right: 20px;
+  }
